@@ -1,0 +1,10 @@
+name                     = "heroe-rg"
+location                 = "Central India"
+account_tier             = "Standard"
+account_replication_type = "GRS"
+stg_name                 = "stgheroewb"
+vnet_name                = "vnet-hero"
+vnet_address_space       = ["10.0.0.0/16"]
+address_prefixes         = ["10.0.1.0/24"]
+nic                      = "nic1"
+vm_name                  = "tilu-vm"
